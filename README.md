@@ -1,4 +1,3 @@
-# ABOUT ME
 # 👋 About Me
 
 ## 👤 Personal Information
