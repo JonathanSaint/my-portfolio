@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonathan Saint | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #111827, #000);
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+    }
+
+    nav h2 {
+      font-weight: 700;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ccc;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #fff;
+    }
+
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 60px;
+      gap: 40px;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero-text h1 {
+      font-size: 64px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .hero-text span {
+      background: linear-gradient(90deg, #8b5cf6, #ec4899);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-text p {
+      margin: 20px 0;
+      font-size: 18px;
+      color: #aaa;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      border-radius: 40px;
+      background: linear-gradient(90deg, #8b5cf6, #ec4899);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 0 25px rgba(236,72,153,0.4);
+      transition: transform 0.3s;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+
+    /* Avatar */
+    .avatar {
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #1f2933, #000);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 60px rgba(139,92,246,0.5);
+    }
+
+    .avatar img {
+      width: 85%;
+      border-radius: 50%;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text h1 {
+        font-size: 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>Jonathan</h2>
+    <ul>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>HI, I'M <span>JONATHAN</span></h1>
+      <p>Builder • Developer • Learner<br>Passionate about crafting clean and meaningful digital experiences.</p>
+      <a href="#" class="btn">Contact Me</a>
+    </div>
+
+    <div class="avatar">
+      <!-- Replace avatar.png with your own image -->
+      <img src="assets/avatar.png" alt="Avatar" />
+    </div>
+  </section>
+
+</body>
+</html>
