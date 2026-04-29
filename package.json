@@ -1,7 +1,8 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "**URL**: https://jonathansaint"
+  "description": "My Portfolio Project",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
@@ -15,7 +16,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/JonathanSaint/my-portfolio/issues"
   },
