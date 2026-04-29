@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import jonathanAvatar from '../assets/jonathan.png';
+import jonathanAvatar from '../assets/jonathan-avatar2.png';
 
 const AnimatedAvatar = () => {
   return (
